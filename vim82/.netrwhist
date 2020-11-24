@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='G:\dev\cpp\EdiClock\src'
+let g:netrw_dirhist_8='G:\dev\cpp\dmitriy_compiler'
+let g:netrw_dirhist_7='G:\dev\cpp\dmitriy_compiler/src'
+let g:netrw_dirhist_6='G:\dev\cpp\dmitriy_compiler'
+let g:netrw_dirhist_5='C:/Users/Edgar/Repos/aksljdkjs'
+let g:netrw_dirhist_4='C:/Users/Edgar/Repos/aksljdkjs/build'
+let g:netrw_dirhist_3='C:/Users/Edgar/Repos/aksljdkjs/src'
+let g:netrw_dirhist_2='C:/Users/Edgar/Repos/aksljdkjs'
+let g:netrw_dirhist_1='C:\Users\Edgar\Repos\aksljdkjs/src'
+let g:netrw_dirhist_0='C:\Users\Edgar\Repos\aksljdkjs'
