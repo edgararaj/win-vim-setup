@@ -1,6 +1,5 @@
 :insert
 /*
-	File: 
 	Brief:
 	Author: Edgar Araújo <edgararaj@gmail.com>
 	Copyright 2020

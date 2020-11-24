@@ -21,7 +21,7 @@ $
 
 # Command Line History (newest to oldest):
 :q!
-|2,0,1606170237,,"q!"
+|2,0,1606229813,,"q!"
 :wq
 |2,0,1606165467,,"wq"
 :w
@@ -423,7 +423,7 @@ $
 
 # Search String History (newest to oldest):
 ? @$
-|2,1,1606170232,,"@$"
+|2,1,1606229211,,"@$"
 ? \<Plus\>
 |2,1,1606158879,,"\\<Plus\\>"
 ? \<Add\>
@@ -895,35 +895,35 @@ $
 ""0	LINE	0
 	{
 	}
-|3,1,0,1,2,0,1606170235,"{","}"
+|3,1,0,1,2,0,1606229211,"{","}"
 "1	LINE	0
 	
-|3,0,1,1,1,0,1606170232,""
+|3,0,1,1,1,0,1606229211,""
 "2	LINE	0
 	
-|3,0,2,1,1,0,1606170232,""
+|3,0,2,1,1,0,1606229211,""
 "3	LINE	0
-	{
-	}
-|3,0,3,1,2,0,1606168880,"{","}"
+	
+|3,0,3,1,1,0,1606229210,""
 "4	LINE	0
 	
-|3,0,4,1,1,0,1606158524,""
+|3,0,4,1,1,0,1606229210,""
 "5	LINE	0
 	
-|3,0,5,1,1,0,1606158524,""
+|3,0,5,1,1,0,1606170232,""
 "6	LINE	0
 	
-|3,0,6,1,1,0,1606158523,""
+|3,0,6,1,1,0,1606170232,""
 "7	LINE	0
-	
-|3,0,7,1,1,0,1606158523,""
+	{
+	}
+|3,0,7,1,2,0,1606168880,"{","}"
 "8	LINE	0
 	
-|3,0,8,1,1,0,1606158482,""
+|3,0,8,1,1,0,1606158524,""
 "9	LINE	0
 	
-|3,0,9,1,1,0,1606158482,""
+|3,0,9,1,1,0,1606158524,""
 "a@	CHAR	0
 	i€kb€kbsrcj
 |3,2,10,0,1,0,1605375499,"i€kb€kbsrcj"
@@ -978,6 +978,12 @@ $
 |4,39,1,0,1606170261,"G:\\dev\\cpp\\EdiClock\\.gitignore"
 -'  1  0  G:\dev\cpp\EdiClock\.gitignore
 |4,39,1,0,1606170261,"G:\\dev\\cpp\\EdiClock\\.gitignore"
+-'  1  0  G:\dev\cpp\EdiClock\.gitignore
+|4,39,1,0,1606170261,"G:\\dev\\cpp\\EdiClock\\.gitignore"
+-'  36  3  G:\dev\cpp\EdiClock\src\clock.cpp
+|4,39,36,3,1606170252,"G:\\dev\\cpp\\EdiClock\\src\\clock.cpp"
+-'  36  3  G:\dev\cpp\EdiClock\src\clock.cpp
+|4,39,36,3,1606170252,"G:\\dev\\cpp\\EdiClock\\src\\clock.cpp"
 -'  36  3  G:\dev\cpp\EdiClock\src\clock.cpp
 |4,39,36,3,1606170252,"G:\\dev\\cpp\\EdiClock\\src\\clock.cpp"
 -'  36  3  G:\dev\cpp\EdiClock\src\clock.cpp
@@ -1042,6 +1048,14 @@ $
 |4,39,15,2,1606170251,"G:\\dev\\cpp\\EdiClock\\build.bat"
 -'  15  2  G:\dev\cpp\EdiClock\build.bat
 |4,39,15,2,1606170251,"G:\\dev\\cpp\\EdiClock\\build.bat"
+-'  15  2  G:\dev\cpp\EdiClock\build.bat
+|4,39,15,2,1606170251,"G:\\dev\\cpp\\EdiClock\\build.bat"
+-'  15  2  G:\dev\cpp\EdiClock\build.bat
+|4,39,15,2,1606170251,"G:\\dev\\cpp\\EdiClock\\build.bat"
+-'  4  2  G:\dev\cpp\EdiClock\build.bat
+|4,39,4,2,1606170244,"G:\\dev\\cpp\\EdiClock\\build.bat"
+-'  4  2  G:\dev\cpp\EdiClock\build.bat
+|4,39,4,2,1606170244,"G:\\dev\\cpp\\EdiClock\\build.bat"
 -'  4  2  G:\dev\cpp\EdiClock\build.bat
 |4,39,4,2,1606170244,"G:\\dev\\cpp\\EdiClock\\build.bat"
 -'  4  2  G:\dev\cpp\EdiClock\build.bat
@@ -1106,30 +1120,10 @@ $
 |4,39,1,0,1606170231,"G:\\dev\\cpp\\EdiClock\\src\\mouse.cpp"
 -'  1  0  G:\dev\cpp\EdiClock\src\mouse.cpp
 |4,39,1,0,1606170231,"G:\\dev\\cpp\\EdiClock\\src\\mouse.cpp"
--'  1  12  C:\Users\Edgar\Repos\aksljdkjs\src\App.rc
-|4,39,1,12,1606165507,"C:\\Users\\Edgar\\Repos\\aksljdkjs\\src\\App.rc"
--'  1  12  C:\Users\Edgar\Repos\aksljdkjs\src\App.rc
-|4,39,1,12,1606165507,"C:\\Users\\Edgar\\Repos\\aksljdkjs\\src\\App.rc"
--'  1  12  C:\Users\Edgar\Repos\aksljdkjs\src\App.rc
-|4,39,1,12,1606165507,"C:\\Users\\Edgar\\Repos\\aksljdkjs\\src\\App.rc"
--'  1  12  C:\Users\Edgar\Repos\aksljdkjs\src\App.rc
-|4,39,1,12,1606165507,"C:\\Users\\Edgar\\Repos\\aksljdkjs\\src\\App.rc"
--'  1  12  C:\Users\Edgar\Repos\aksljdkjs\src\App.rc
-|4,39,1,12,1606165507,"C:\\Users\\Edgar\\Repos\\aksljdkjs\\src\\App.rc"
--'  1  12  C:\Users\Edgar\Repos\aksljdkjs\src\App.rc
-|4,39,1,12,1606165507,"C:\\Users\\Edgar\\Repos\\aksljdkjs\\src\\App.rc"
--'  1  12  C:\Users\Edgar\Repos\aksljdkjs\src\App.rc
-|4,39,1,12,1606165507,"C:\\Users\\Edgar\\Repos\\aksljdkjs\\src\\App.rc"
--'  1  12  C:\Users\Edgar\Repos\aksljdkjs\src\App.rc
-|4,39,1,12,1606165507,"C:\\Users\\Edgar\\Repos\\aksljdkjs\\src\\App.rc"
--'  1  12  C:\Users\Edgar\Repos\aksljdkjs\src\App.rc
-|4,39,1,12,1606165507,"C:\\Users\\Edgar\\Repos\\aksljdkjs\\src\\App.rc"
--'  1  12  C:\Users\Edgar\Repos\aksljdkjs\src\App.rc
-|4,39,1,12,1606165507,"C:\\Users\\Edgar\\Repos\\aksljdkjs\\src\\App.rc"
--'  1  12  C:\Users\Edgar\Repos\aksljdkjs\src\App.rc
-|4,39,1,12,1606165507,"C:\\Users\\Edgar\\Repos\\aksljdkjs\\src\\App.rc"
--'  1  12  C:\Users\Edgar\Repos\aksljdkjs\src\App.rc
-|4,39,1,12,1606165507,"C:\\Users\\Edgar\\Repos\\aksljdkjs\\src\\App.rc"
+-'  1  0  G:\dev\cpp\EdiClock\src\mouse.cpp
+|4,39,1,0,1606170231,"G:\\dev\\cpp\\EdiClock\\src\\mouse.cpp"
+-'  1  0  G:\dev\cpp\EdiClock\src\mouse.cpp
+|4,39,1,0,1606170231,"G:\\dev\\cpp\\EdiClock\\src\\mouse.cpp"
 -'  1  12  C:\Users\Edgar\Repos\aksljdkjs\src\App.rc
 |4,39,1,12,1606165507,"C:\\Users\\Edgar\\Repos\\aksljdkjs\\src\\App.rc"
 -'  1  12  C:\Users\Edgar\Repos\aksljdkjs\src\App.rc
