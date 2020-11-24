@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/\<Plus\>
+~MSle0~/undo
 
 # Last Substitute Search Pattern:
 ~MSle0&^
@@ -21,15 +21,37 @@ $
 
 # Command Line History (newest to oldest):
 :q!
-|2,0,1606229813,,"q!"
+|2,0,1606231025,,"q!"
+:cd ~
+|2,0,1606231021,,"cd ~"
+:w
+|2,0,1606230966,,"w"
+:q
+|2,0,1606230836,,"q"
+:UndotreeShow
+|2,0,1606230824,,"UndotreeShow"
+:UndotreeFocus
+|2,0,1606230799,,"UndotreeFocus"
+:UndotreeToggle
+|2,0,1606230765,,"UndotreeToggle"
+:U
+|2,0,1606230746,,"U"
+:w!
+|2,0,1606230614,,"w!"
+:W
+|2,0,1606230611,,"W"
+:unodl
+|2,0,1606230562,,"unodl"
+:undolist
+|2,0,1606230555,,"undolist"
+:d
+|2,0,1606230545,,"d"
+:Mk
+|2,0,1606230534,,"Mk"
 :wq
 |2,0,1606165467,,"wq"
-:w
-|2,0,1606165458,,"w"
 :!build\compiler.exe
 |2,0,1606158513,,"!build\\compiler.exe"
-:q
-|2,0,1606158509,,"q"
 :copen
 |2,0,1606158507,,"copen"
 :make
@@ -42,8 +64,6 @@ $
 |2,0,1606081800,,"w deliconcache.bat"
 :.w
 |2,0,1606074201,,".w"
-:W
-|2,0,1606064692,,"W"
 :76
 |2,0,1606064677,,"76"
 :193
@@ -332,8 +352,6 @@ $
 |2,0,1605291791,,"strftime"
 :strftime("%d-%m-%Y")
 |2,0,1605291786,,"strftime(\"%d-%m-%Y\")"
-:cd ~
-|2,0,1605291582,,"cd ~"
 :f!
 |2,0,1605292136,,"f!"
 :f
@@ -402,28 +420,14 @@ $
 |2,0,1604947332,,"'<,'>:s//NeedsModRMByte/g"
 :amke
 |2,0,1604947275,,"amke"
-:wr
-|2,0,1604867672,,"wr"
-:set list|
-|2,0,1604864979,,"set list|"
-:set ft=cpp
-|2,0,1604863914,,"set ft=cpp"
-:set g
-|2,0,1604863899,,"set g"
-:'<,'>:s//NeedsModRM/g
-|2,0,1604862983,,"'<,'>:s//NeedsModRM/g"
-:'<,'>:s///g
-|2,0,1604862810,,"'<,'>:s///g"
-:'<,'>:s/\<{\>//g
-|2,0,1604862785,,"'<,'>:s/\\<{\\>//g"
-:&
-|2,0,1604862693,,"&"
-:'<,'>:s//
-|2,0,1604862682,,"'<,'>:s//"
 
 # Search String History (newest to oldest):
 ? @$
-|2,1,1606229211,,"@$"
+|2,1,1606231024,,"@$"
+?/undo
+|2,1,1606230669,47,"undo"
+?/undofile
+|2,1,1606230667,47,"undofile"
 ? \<Plus\>
 |2,1,1606158879,,"\\<Plus\\>"
 ? \<Add\>
@@ -818,10 +822,6 @@ $
 |2,1,1604832404,,"&MyBuffer"
 ?/buffer
 |2,1,1604832308,47,"buffer"
-? buffer\*
-|2,1,1604832305,,"buffer\\*"
-?/buffer\*
-|2,1,1604832284,47,"buffer\\*"
 
 # Expression History (newest to oldest):
 
@@ -892,68 +892,192 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
-	{
-	}
-|3,1,0,1,2,0,1606229211,"{","}"
+""0	CHAR	0
+	!
+|3,1,0,0,1,0,1606231024,"!"
 "1	LINE	0
 	
-|3,0,1,1,1,0,1606229211,""
+|3,0,1,1,1,0,1606231024,""
 "2	LINE	0
 	
-|3,0,2,1,1,0,1606229211,""
+|3,0,2,1,1,0,1606231024,""
 "3	LINE	0
 	
-|3,0,3,1,1,0,1606229210,""
+|3,0,3,1,1,0,1606231021,""
 "4	LINE	0
 	
-|3,0,4,1,1,0,1606229210,""
+|3,0,4,1,1,0,1606231021,""
 "5	LINE	0
 	
-|3,0,5,1,1,0,1606170232,""
+|3,0,5,1,1,0,1606231017,""
 "6	LINE	0
 	
-|3,0,6,1,1,0,1606170232,""
+|3,0,6,1,1,0,1606231017,""
 "7	LINE	0
-	{
-	}
-|3,0,7,1,2,0,1606168880,"{","}"
+	
+|3,0,7,1,1,0,1606231016,""
 "8	LINE	0
 	
-|3,0,8,1,1,0,1606158524,""
+|3,0,8,1,1,0,1606231016,""
 "9	LINE	0
 	
-|3,0,9,1,1,0,1606158524,""
+|3,0,9,1,1,0,1606231014,""
 "a@	CHAR	0
 	i€kb€kbsrcj
 |3,2,10,0,1,0,1605375499,"i€kb€kbsrcj"
 "-	CHAR	0
-	k
-|3,0,36,0,1,0,1606168880,"k"
+	!
+|3,0,36,0,1,0,1606230957,"!"
 
 # File marks:
-'0  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
-|4,48,1,0,1606229398,"~\\git\\vim-cpp-modern\\after\\syntax\\c.vim"
-'1  1  0  G:\dev\cpp\EdiClock\.gitignore
-|4,49,1,0,1606170261,"G:\\dev\\cpp\\EdiClock\\.gitignore"
-'2  36  3  G:\dev\cpp\EdiClock\src\clock.cpp
-|4,50,36,3,1606170252,"G:\\dev\\cpp\\EdiClock\\src\\clock.cpp"
-'3  15  2  G:\dev\cpp\EdiClock\build.bat
-|4,51,15,2,1606170251,"G:\\dev\\cpp\\EdiClock\\build.bat"
-'4  1  12  C:\Users\Edgar\Repos\aksljdkjs\src\App.rc
-|4,52,1,12,1606165507,"C:\\Users\\Edgar\\Repos\\aksljdkjs\\src\\App.rc"
-'5  122  4  C:\Users\Edgar\Repos\aksljdkjs\src\App.resx
-|4,53,122,4,1606165500,"C:\\Users\\Edgar\\Repos\\aksljdkjs\\src\\App.resx"
-'6  6  0  G:\dev\cpp\dmitriy_compiler\build.bat
-|4,54,6,0,1606165468,"G:\\dev\\cpp\\dmitriy_compiler\\build.bat"
-'7  7  0  C:\Users\Edgar\Repos\aksljdkjs\build.bat
-|4,55,7,0,1606165467,"C:\\Users\\Edgar\\Repos\\aksljdkjs\\build.bat"
-'8  122  32  C:\Users\Edgar\Repos\aksljdkjs\src\App.resx
-|4,56,122,32,1606163289,"C:\\Users\\Edgar\\Repos\\aksljdkjs\\src\\App.resx"
-'9  327  0  C:\Users\Edgar\Documents\ICOFormat-2.1f1-win64\dist\COPYING
-|4,57,327,0,1606161489,"C:\\Users\\Edgar\\Documents\\ICOFormat-2.1f1-win64\\dist\\COPYING"
+'0  1  0  ~\_gvimrc
+|4,48,1,0,1606231025,"~\\_gvimrc"
+'1  51  8  ~\_vimrc
+|4,49,51,8,1606231007,"~\\_vimrc"
+'2  1  0  ~\.gitignore
+|4,50,1,0,1606230734,"~\\.gitignore"
+'3  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
+|4,51,1,0,1606229398,"~\\git\\vim-cpp-modern\\after\\syntax\\c.vim"
+'4  1  0  G:\dev\cpp\EdiClock\.gitignore
+|4,52,1,0,1606170261,"G:\\dev\\cpp\\EdiClock\\.gitignore"
+'5  36  3  G:\dev\cpp\EdiClock\src\clock.cpp
+|4,53,36,3,1606170252,"G:\\dev\\cpp\\EdiClock\\src\\clock.cpp"
+'6  15  2  G:\dev\cpp\EdiClock\build.bat
+|4,54,15,2,1606170251,"G:\\dev\\cpp\\EdiClock\\build.bat"
+'7  1  12  C:\Users\Edgar\Repos\aksljdkjs\src\App.rc
+|4,55,1,12,1606165507,"C:\\Users\\Edgar\\Repos\\aksljdkjs\\src\\App.rc"
+'8  122  4  C:\Users\Edgar\Repos\aksljdkjs\src\App.resx
+|4,56,122,4,1606165500,"C:\\Users\\Edgar\\Repos\\aksljdkjs\\src\\App.resx"
+'9  6  0  G:\dev\cpp\dmitriy_compiler\build.bat
+|4,57,6,0,1606165468,"G:\\dev\\cpp\\dmitriy_compiler\\build.bat"
 
 # Jumplist (newest first):
+-'  1  0  ~\_gvimrc
+|4,39,1,0,1606231025,"~\\_gvimrc"
+-'  51  8  ~\_vimrc
+|4,39,51,8,1606231007,"~\\_vimrc"
+-'  51  8  ~\_vimrc
+|4,39,51,8,1606231007,"~\\_vimrc"
+-'  60  8  ~\_vimrc
+|4,39,60,8,1606231003,"~\\_vimrc"
+-'  60  8  ~\_vimrc
+|4,39,60,8,1606231003,"~\\_vimrc"
+-'  107  0  ~\_vimrc
+|4,39,107,0,1606230988,"~\\_vimrc"
+-'  107  0  ~\_vimrc
+|4,39,107,0,1606230988,"~\\_vimrc"
+-'  57  26  ~\_vimrc
+|4,39,57,26,1606230941,"~\\_vimrc"
+-'  57  26  ~\_vimrc
+|4,39,57,26,1606230941,"~\\_vimrc"
+-'  59  17  ~\_vimrc
+|4,39,59,17,1606230919,"~\\_vimrc"
+-'  59  17  ~\_vimrc
+|4,39,59,17,1606230919,"~\\_vimrc"
+-'  35  15  ~\_vimrc
+|4,39,35,15,1606230758,"~\\_vimrc"
+-'  30  0  ~\_vimrc
+|4,39,30,0,1606230758,"~\\_vimrc"
+-'  35  15  ~\_vimrc
+|4,39,35,15,1606230758,"~\\_vimrc"
+-'  30  0  ~\_vimrc
+|4,39,30,0,1606230758,"~\\_vimrc"
+-'  1  0  ~\_vimrc
+|4,39,1,0,1606230735,"~\\_vimrc"
+-'  1  0  ~\_vimrc
+|4,39,1,0,1606230735,"~\\_vimrc"
+-'  1  0  ~\.gitignore
+|4,39,1,0,1606230734,"~\\.gitignore"
+-'  1  0  ~\.gitignore
+|4,39,1,0,1606230734,"~\\.gitignore"
+-'  1  0  ~\.gitignore
+|4,39,1,0,1606230734,"~\\.gitignore"
+-'  1  0  ~\.gitignore
+|4,39,1,0,1606230734,"~\\.gitignore"
+-'  2  1  ~\.gitignore
+|4,39,2,1,1606230695,"~\\.gitignore"
+-'  2  1  ~\.gitignore
+|4,39,2,1,1606230695,"~\\.gitignore"
+-'  2  1  ~\.gitignore
+|4,39,2,1,1606230695,"~\\.gitignore"
+-'  2  1  ~\.gitignore
+|4,39,2,1,1606230695,"~\\.gitignore"
+-'  32  4  ~\_vimrc
+|4,39,32,4,1606230669,"~\\_vimrc"
+-'  32  4  ~\_vimrc
+|4,39,32,4,1606230669,"~\\_vimrc"
+-'  32  4  ~\_vimrc
+|4,39,32,4,1606230669,"~\\_vimrc"
+-'  32  4  ~\_vimrc
+|4,39,32,4,1606230669,"~\\_vimrc"
+-'  15  0  ~\_vimrc
+|4,39,15,0,1606230667,"~\\_vimrc"
+-'  15  0  ~\_vimrc
+|4,39,15,0,1606230667,"~\\_vimrc"
+-'  15  0  ~\_vimrc
+|4,39,15,0,1606230667,"~\\_vimrc"
+-'  15  0  ~\_vimrc
+|4,39,15,0,1606230667,"~\\_vimrc"
+-'  1  0  ~\_vimrc
+|4,39,1,0,1606230528,"~\\_vimrc"
+-'  1  0  ~\_vimrc
+|4,39,1,0,1606230528,"~\\_vimrc"
+-'  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
+|4,39,1,0,1606229398,"~\\git\\vim-cpp-modern\\after\\syntax\\c.vim"
+-'  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
+|4,39,1,0,1606229398,"~\\git\\vim-cpp-modern\\after\\syntax\\c.vim"
+-'  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
+|4,39,1,0,1606229398,"~\\git\\vim-cpp-modern\\after\\syntax\\c.vim"
+-'  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
+|4,39,1,0,1606229398,"~\\git\\vim-cpp-modern\\after\\syntax\\c.vim"
+-'  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
+|4,39,1,0,1606229398,"~\\git\\vim-cpp-modern\\after\\syntax\\c.vim"
+-'  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
+|4,39,1,0,1606229398,"~\\git\\vim-cpp-modern\\after\\syntax\\c.vim"
+-'  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
+|4,39,1,0,1606229398,"~\\git\\vim-cpp-modern\\after\\syntax\\c.vim"
+-'  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
+|4,39,1,0,1606229398,"~\\git\\vim-cpp-modern\\after\\syntax\\c.vim"
+-'  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
+|4,39,1,0,1606229398,"~\\git\\vim-cpp-modern\\after\\syntax\\c.vim"
+-'  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
+|4,39,1,0,1606229398,"~\\git\\vim-cpp-modern\\after\\syntax\\c.vim"
+-'  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
+|4,39,1,0,1606229398,"~\\git\\vim-cpp-modern\\after\\syntax\\c.vim"
+-'  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
+|4,39,1,0,1606229398,"~\\git\\vim-cpp-modern\\after\\syntax\\c.vim"
+-'  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
+|4,39,1,0,1606229398,"~\\git\\vim-cpp-modern\\after\\syntax\\c.vim"
+-'  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
+|4,39,1,0,1606229398,"~\\git\\vim-cpp-modern\\after\\syntax\\c.vim"
+-'  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
+|4,39,1,0,1606229398,"~\\git\\vim-cpp-modern\\after\\syntax\\c.vim"
+-'  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
+|4,39,1,0,1606229398,"~\\git\\vim-cpp-modern\\after\\syntax\\c.vim"
+-'  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
+|4,39,1,0,1606229398,"~\\git\\vim-cpp-modern\\after\\syntax\\c.vim"
+-'  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
+|4,39,1,0,1606229398,"~\\git\\vim-cpp-modern\\after\\syntax\\c.vim"
+-'  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
+|4,39,1,0,1606229398,"~\\git\\vim-cpp-modern\\after\\syntax\\c.vim"
+-'  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
+|4,39,1,0,1606229398,"~\\git\\vim-cpp-modern\\after\\syntax\\c.vim"
+-'  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
+|4,39,1,0,1606229398,"~\\git\\vim-cpp-modern\\after\\syntax\\c.vim"
+-'  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
+|4,39,1,0,1606229398,"~\\git\\vim-cpp-modern\\after\\syntax\\c.vim"
+-'  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
+|4,39,1,0,1606229398,"~\\git\\vim-cpp-modern\\after\\syntax\\c.vim"
+-'  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
+|4,39,1,0,1606229398,"~\\git\\vim-cpp-modern\\after\\syntax\\c.vim"
+-'  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
+|4,39,1,0,1606229398,"~\\git\\vim-cpp-modern\\after\\syntax\\c.vim"
+-'  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
+|4,39,1,0,1606229398,"~\\git\\vim-cpp-modern\\after\\syntax\\c.vim"
+-'  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
+|4,39,1,0,1606229398,"~\\git\\vim-cpp-modern\\after\\syntax\\c.vim"
+-'  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
+|4,39,1,0,1606229398,"~\\git\\vim-cpp-modern\\after\\syntax\\c.vim"
 -'  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
 |4,39,1,0,1606229398,"~\\git\\vim-cpp-modern\\after\\syntax\\c.vim"
 -'  1  0  ~\git\vim-cpp-modern\after\syntax\c.vim
@@ -980,174 +1104,214 @@ $
 |4,39,1,0,1606170261,"G:\\dev\\cpp\\EdiClock\\.gitignore"
 -'  1  0  G:\dev\cpp\EdiClock\.gitignore
 |4,39,1,0,1606170261,"G:\\dev\\cpp\\EdiClock\\.gitignore"
--'  36  3  G:\dev\cpp\EdiClock\src\clock.cpp
-|4,39,36,3,1606170252,"G:\\dev\\cpp\\EdiClock\\src\\clock.cpp"
--'  36  3  G:\dev\cpp\EdiClock\src\clock.cpp
-|4,39,36,3,1606170252,"G:\\dev\\cpp\\EdiClock\\src\\clock.cpp"
--'  36  3  G:\dev\cpp\EdiClock\src\clock.cpp
-|4,39,36,3,1606170252,"G:\\dev\\cpp\\EdiClock\\src\\clock.cpp"
--'  36  3  G:\dev\cpp\EdiClock\src\clock.cpp
-|4,39,36,3,1606170252,"G:\\dev\\cpp\\EdiClock\\src\\clock.cpp"
--'  36  3  G:\dev\cpp\EdiClock\src\clock.cpp
-|4,39,36,3,1606170252,"G:\\dev\\cpp\\EdiClock\\src\\clock.cpp"
--'  36  3  G:\dev\cpp\EdiClock\src\clock.cpp
-|4,39,36,3,1606170252,"G:\\dev\\cpp\\EdiClock\\src\\clock.cpp"
--'  36  3  G:\dev\cpp\EdiClock\src\clock.cpp
-|4,39,36,3,1606170252,"G:\\dev\\cpp\\EdiClock\\src\\clock.cpp"
--'  36  3  G:\dev\cpp\EdiClock\src\clock.cpp
-|4,39,36,3,1606170252,"G:\\dev\\cpp\\EdiClock\\src\\clock.cpp"
--'  36  3  G:\dev\cpp\EdiClock\src\clock.cpp
-|4,39,36,3,1606170252,"G:\\dev\\cpp\\EdiClock\\src\\clock.cpp"
--'  36  3  G:\dev\cpp\EdiClock\src\clock.cpp
-|4,39,36,3,1606170252,"G:\\dev\\cpp\\EdiClock\\src\\clock.cpp"
--'  36  3  G:\dev\cpp\EdiClock\src\clock.cpp
-|4,39,36,3,1606170252,"G:\\dev\\cpp\\EdiClock\\src\\clock.cpp"
--'  36  3  G:\dev\cpp\EdiClock\src\clock.cpp
-|4,39,36,3,1606170252,"G:\\dev\\cpp\\EdiClock\\src\\clock.cpp"
--'  36  3  G:\dev\cpp\EdiClock\src\clock.cpp
-|4,39,36,3,1606170252,"G:\\dev\\cpp\\EdiClock\\src\\clock.cpp"
--'  36  3  G:\dev\cpp\EdiClock\src\clock.cpp
-|4,39,36,3,1606170252,"G:\\dev\\cpp\\EdiClock\\src\\clock.cpp"
--'  36  3  G:\dev\cpp\EdiClock\src\clock.cpp
-|4,39,36,3,1606170252,"G:\\dev\\cpp\\EdiClock\\src\\clock.cpp"
--'  36  3  G:\dev\cpp\EdiClock\src\clock.cpp
-|4,39,36,3,1606170252,"G:\\dev\\cpp\\EdiClock\\src\\clock.cpp"
--'  36  3  G:\dev\cpp\EdiClock\src\clock.cpp
-|4,39,36,3,1606170252,"G:\\dev\\cpp\\EdiClock\\src\\clock.cpp"
--'  36  3  G:\dev\cpp\EdiClock\src\clock.cpp
-|4,39,36,3,1606170252,"G:\\dev\\cpp\\EdiClock\\src\\clock.cpp"
--'  15  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,15,2,1606170251,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  15  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,15,2,1606170251,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  15  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,15,2,1606170251,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  15  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,15,2,1606170251,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  15  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,15,2,1606170251,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  15  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,15,2,1606170251,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  15  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,15,2,1606170251,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  15  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,15,2,1606170251,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  15  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,15,2,1606170251,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  15  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,15,2,1606170251,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  15  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,15,2,1606170251,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  15  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,15,2,1606170251,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  15  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,15,2,1606170251,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  15  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,15,2,1606170251,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  15  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,15,2,1606170251,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  15  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,15,2,1606170251,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  15  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,15,2,1606170251,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  15  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,15,2,1606170251,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  4  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,4,2,1606170244,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  4  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,4,2,1606170244,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  4  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,4,2,1606170244,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  4  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,4,2,1606170244,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  4  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,4,2,1606170244,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  4  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,4,2,1606170244,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  4  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,4,2,1606170244,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  4  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,4,2,1606170244,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  4  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,4,2,1606170244,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  4  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,4,2,1606170244,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  4  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,4,2,1606170244,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  4  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,4,2,1606170244,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  4  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,4,2,1606170244,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  4  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,4,2,1606170244,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  4  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,4,2,1606170244,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  4  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,4,2,1606170244,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  4  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,4,2,1606170244,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  4  2  G:\dev\cpp\EdiClock\build.bat
-|4,39,4,2,1606170244,"G:\\dev\\cpp\\EdiClock\\build.bat"
--'  1  0  G:\dev\cpp\EdiClock\src\mouse.cpp
-|4,39,1,0,1606170231,"G:\\dev\\cpp\\EdiClock\\src\\mouse.cpp"
--'  1  0  G:\dev\cpp\EdiClock\src\mouse.cpp
-|4,39,1,0,1606170231,"G:\\dev\\cpp\\EdiClock\\src\\mouse.cpp"
--'  1  0  G:\dev\cpp\EdiClock\src\mouse.cpp
-|4,39,1,0,1606170231,"G:\\dev\\cpp\\EdiClock\\src\\mouse.cpp"
--'  1  0  G:\dev\cpp\EdiClock\src\mouse.cpp
-|4,39,1,0,1606170231,"G:\\dev\\cpp\\EdiClock\\src\\mouse.cpp"
--'  1  0  G:\dev\cpp\EdiClock\src\mouse.cpp
-|4,39,1,0,1606170231,"G:\\dev\\cpp\\EdiClock\\src\\mouse.cpp"
--'  1  0  G:\dev\cpp\EdiClock\src\mouse.cpp
-|4,39,1,0,1606170231,"G:\\dev\\cpp\\EdiClock\\src\\mouse.cpp"
--'  1  0  G:\dev\cpp\EdiClock\src\mouse.cpp
-|4,39,1,0,1606170231,"G:\\dev\\cpp\\EdiClock\\src\\mouse.cpp"
--'  1  0  G:\dev\cpp\EdiClock\src\mouse.cpp
-|4,39,1,0,1606170231,"G:\\dev\\cpp\\EdiClock\\src\\mouse.cpp"
--'  1  0  G:\dev\cpp\EdiClock\src\mouse.cpp
-|4,39,1,0,1606170231,"G:\\dev\\cpp\\EdiClock\\src\\mouse.cpp"
--'  1  0  G:\dev\cpp\EdiClock\src\mouse.cpp
-|4,39,1,0,1606170231,"G:\\dev\\cpp\\EdiClock\\src\\mouse.cpp"
--'  1  0  G:\dev\cpp\EdiClock\src\mouse.cpp
-|4,39,1,0,1606170231,"G:\\dev\\cpp\\EdiClock\\src\\mouse.cpp"
--'  1  0  G:\dev\cpp\EdiClock\src\mouse.cpp
-|4,39,1,0,1606170231,"G:\\dev\\cpp\\EdiClock\\src\\mouse.cpp"
--'  1  0  G:\dev\cpp\EdiClock\src\mouse.cpp
-|4,39,1,0,1606170231,"G:\\dev\\cpp\\EdiClock\\src\\mouse.cpp"
--'  1  0  G:\dev\cpp\EdiClock\src\mouse.cpp
-|4,39,1,0,1606170231,"G:\\dev\\cpp\\EdiClock\\src\\mouse.cpp"
--'  1  0  G:\dev\cpp\EdiClock\src\mouse.cpp
-|4,39,1,0,1606170231,"G:\\dev\\cpp\\EdiClock\\src\\mouse.cpp"
--'  1  0  G:\dev\cpp\EdiClock\src\mouse.cpp
-|4,39,1,0,1606170231,"G:\\dev\\cpp\\EdiClock\\src\\mouse.cpp"
--'  1  0  G:\dev\cpp\EdiClock\src\mouse.cpp
-|4,39,1,0,1606170231,"G:\\dev\\cpp\\EdiClock\\src\\mouse.cpp"
--'  1  0  G:\dev\cpp\EdiClock\src\mouse.cpp
-|4,39,1,0,1606170231,"G:\\dev\\cpp\\EdiClock\\src\\mouse.cpp"
--'  1  12  C:\Users\Edgar\Repos\aksljdkjs\src\App.rc
-|4,39,1,12,1606165507,"C:\\Users\\Edgar\\Repos\\aksljdkjs\\src\\App.rc"
--'  1  12  C:\Users\Edgar\Repos\aksljdkjs\src\App.rc
-|4,39,1,12,1606165507,"C:\\Users\\Edgar\\Repos\\aksljdkjs\\src\\App.rc"
--'  1  12  C:\Users\Edgar\Repos\aksljdkjs\src\App.rc
-|4,39,1,12,1606165507,"C:\\Users\\Edgar\\Repos\\aksljdkjs\\src\\App.rc"
--'  1  12  C:\Users\Edgar\Repos\aksljdkjs\src\App.rc
-|4,39,1,12,1606165507,"C:\\Users\\Edgar\\Repos\\aksljdkjs\\src\\App.rc"
--'  1  12  C:\Users\Edgar\Repos\aksljdkjs\src\App.rc
-|4,39,1,12,1606165507,"C:\\Users\\Edgar\\Repos\\aksljdkjs\\src\\App.rc"
--'  1  12  C:\Users\Edgar\Repos\aksljdkjs\src\App.rc
-|4,39,1,12,1606165507,"C:\\Users\\Edgar\\Repos\\aksljdkjs\\src\\App.rc"
--'  1  12  C:\Users\Edgar\Repos\aksljdkjs\src\App.rc
-|4,39,1,12,1606165507,"C:\\Users\\Edgar\\Repos\\aksljdkjs\\src\\App.rc"
--'  1  12  C:\Users\Edgar\Repos\aksljdkjs\src\App.rc
-|4,39,1,12,1606165507,"C:\\Users\\Edgar\\Repos\\aksljdkjs\\src\\App.rc"
--'  1  12  C:\Users\Edgar\Repos\aksljdkjs\src\App.rc
-|4,39,1,12,1606165507,"C:\\Users\\Edgar\\Repos\\aksljdkjs\\src\\App.rc"
--'  1  12  C:\Users\Edgar\Repos\aksljdkjs\src\App.rc
-|4,39,1,12,1606165507,"C:\\Users\\Edgar\\Repos\\aksljdkjs\\src\\App.rc"
--'  1  12  C:\Users\Edgar\Repos\aksljdkjs\src\App.rc
-|4,39,1,12,1606165507,"C:\\Users\\Edgar\\Repos\\aksljdkjs\\src\\App.rc"
+-'  1  0  G:\dev\cpp\EdiClock\.gitignore
+|4,39,1,0,1606170261,"G:\\dev\\cpp\\EdiClock\\.gitignore"
+-'  1  0  G:\dev\cpp\EdiClock\.gitignore
+|4,39,1,0,1606170261,"G:\\dev\\cpp\\EdiClock\\.gitignore"
+-'  1  0  G:\dev\cpp\EdiClock\.gitignore
+|4,39,1,0,1606170261,"G:\\dev\\cpp\\EdiClock\\.gitignore"
+-'  1  0  G:\dev\cpp\EdiClock\.gitignore
+|4,39,1,0,1606170261,"G:\\dev\\cpp\\EdiClock\\.gitignore"
+-'  1  0  G:\dev\cpp\EdiClock\.gitignore
+|4,39,1,0,1606170261,"G:\\dev\\cpp\\EdiClock\\.gitignore"
+-'  1  0  G:\dev\cpp\EdiClock\.gitignore
+|4,39,1,0,1606170261,"G:\\dev\\cpp\\EdiClock\\.gitignore"
+-'  1  0  G:\dev\cpp\EdiClock\.gitignore
+|4,39,1,0,1606170261,"G:\\dev\\cpp\\EdiClock\\.gitignore"
+-'  1  0  G:\dev\cpp\EdiClock\.gitignore
+|4,39,1,0,1606170261,"G:\\dev\\cpp\\EdiClock\\.gitignore"
+-'  1  0  G:\dev\cpp\EdiClock\.gitignore
+|4,39,1,0,1606170261,"G:\\dev\\cpp\\EdiClock\\.gitignore"
+-'  1  0  G:\dev\cpp\EdiClock\.gitignore
+|4,39,1,0,1606170261,"G:\\dev\\cpp\\EdiClock\\.gitignore"
+-'  1  0  G:\dev\cpp\EdiClock\.gitignore
+|4,39,1,0,1606170261,"G:\\dev\\cpp\\EdiClock\\.gitignore"
+-'  1  0  G:\dev\cpp\EdiClock\.gitignore
+|4,39,1,0,1606170261,"G:\\dev\\cpp\\EdiClock\\.gitignore"
+-'  1  0  G:\dev\cpp\EdiClock\.gitignore
+|4,39,1,0,1606170261,"G:\\dev\\cpp\\EdiClock\\.gitignore"
+-'  1  0  G:\dev\cpp\EdiClock\.gitignore
+|4,39,1,0,1606170261,"G:\\dev\\cpp\\EdiClock\\.gitignore"
+-'  1  0  G:\dev\cpp\EdiClock\.gitignore
+|4,39,1,0,1606170261,"G:\\dev\\cpp\\EdiClock\\.gitignore"
+-'  1  0  G:\dev\cpp\EdiClock\.gitignore
+|4,39,1,0,1606170261,"G:\\dev\\cpp\\EdiClock\\.gitignore"
+-'  1  0  G:\dev\cpp\EdiClock\.gitignore
+|4,39,1,0,1606170261,"G:\\dev\\cpp\\EdiClock\\.gitignore"
+-'  1  0  G:\dev\cpp\EdiClock\.gitignore
+|4,39,1,0,1606170261,"G:\\dev\\cpp\\EdiClock\\.gitignore"
+-'  1  0  G:\dev\cpp\EdiClock\.gitignore
+|4,39,1,0,1606170261,"G:\\dev\\cpp\\EdiClock\\.gitignore"
+-'  1  0  G:\dev\cpp\EdiClock\.gitignore
+|4,39,1,0,1606170261,"G:\\dev\\cpp\\EdiClock\\.gitignore"
+-'  1  0  G:\dev\cpp\EdiClock\.gitignore
+|4,39,1,0,1606170261,"G:\\dev\\cpp\\EdiClock\\.gitignore"
+-'  1  0  G:\dev\cpp\EdiClock\.gitignore
+|4,39,1,0,1606170261,"G:\\dev\\cpp\\EdiClock\\.gitignore"
+-'  1  0  G:\dev\cpp\EdiClock\.gitignore
+|4,39,1,0,1606170261,"G:\\dev\\cpp\\EdiClock\\.gitignore"
+-'  1  0  G:\dev\cpp\EdiClock\.gitignore
+|4,39,1,0,1606170261,"G:\\dev\\cpp\\EdiClock\\.gitignore"
 
 # History of marks within files (newest to oldest):
+
+> ~\_gvimrc
+	*	1606231024	0
+	"	1	0
+
+> C:\Users\Edgar\diffpanel_3
+	*	1606231015	0
+	"	1	0
+	.	2	0
+	+	2	0
+
+> C:\Users\Edgar\undotree_2
+	*	1606231015	0
+	"	3	1
+	.	3	0
+	+	9	0
+	+	7	0
+	+	5	0
+	+	3	0
+
+> ~\_vimrc
+	*	1606231005	0
+	"	51	8
+	^	107	1
+	.	51	0
+	+	34	0
+	+	36	20
+	+	36	0
+	+	36	20
+	+	36	0
+	+	36	23
+	+	36	0
+	+	62	0
+	+	68	0
+	+	58	21
+	+	24	6
+	+	24	0
+	+	119	30
+	+	115	0
+	+	115	20
+	+	67	16
+	+	67	17
+	+	31	0
+	+	35	12
+	+	36	4
+	+	34	0
+	+	35	0
+	+	36	0
+	+	35	0
+	+	34	0
+	+	35	0
+	+	34	0
+	+	33	7
+	+	35	30
+	+	121	0
+	+	35	22
+	+	115	0
+	+	115	22
+	+	115	15
+	+	115	6
+	+	115	23
+	+	115	37
+	+	115	47
+	+	115	14
+	+	115	0
+	+	115	17
+	+	115	0
+	+	115	53
+	+	115	38
+	+	115	0
+	+	111	0
+	+	56	29
+	+	53	21
+	+	54	18
+	+	28	0
+	+	36	16
+	+	35	0
+	+	61	0
+	+	60	23
+	+	59	0
+	+	60	0
+	+	59	8
+	+	60	0
+	+	61	0
+	+	60	0
+	+	51	0
+
+> ~\undotree_2
+	*	1606231004	0
+	"	7	1
+	.	8	0
+	+	626	0
+	+	620	0
+	+	610	0
+	+	604	0
+	+	603	0
+	+	601	0
+	+	599	0
+	+	597	0
+	+	595	0
+	+	572	0
+	+	549	0
+	+	526	0
+	+	503	0
+	+	480	0
+	+	483	0
+	+	480	0
+	+	457	0
+	+	434	0
+	+	411	0
+	+	388	0
+	+	365	0
+	+	363	0
+	+	361	0
+	+	359	0
+	+	316	0
+	+	273	0
+	+	230	0
+	+	187	0
+	+	144	0
+	+	97	0
+	+	50	0
+	+	3	0
+	+	8	0
+
+> ~\diffpanel_3
+	*	1606230991	0
+	"	1	0
+	.	6	0
+	+	64	0
+	+	60	0
+	+	56	0
+	+	55	0
+	+	51	0
+	+	47	0
+	+	46	0
+	+	42	0
+	+	38	0
+	+	34	0
+	+	30	0
+	+	26	0
+	+	22	0
+	+	18	0
+	+	14	0
+	+	10	0
+	+	6	0
+
+> ~\.gitignore
+	*	1606230723	0
+	"	1	0
+	^	2	4
+	.	1	0
+	+	2	0
+	+	1	0
+
+> ~\_viminfo
+	*	1606230682	0
+	"	1	0
 
 > ~\git\vim-cpp-modern\after\syntax\c.vim
 	*	1606229397	0
@@ -1763,61 +1927,6 @@ $
 	.	34	47
 	+	34	47
 
-> ~\_vimrc
-	*	1605552864	0
-	"	40	0
-	.	28	0
-	+	34	0
-	+	36	20
-	+	36	0
-	+	36	20
-	+	36	0
-	+	36	23
-	+	36	0
-	+	61	0
-	+	67	0
-	+	58	21
-	+	24	6
-	+	24	0
-	+	118	30
-	+	114	0
-	+	114	20
-	+	66	16
-	+	66	17
-	+	31	0
-	+	35	12
-	+	36	4
-	+	34	0
-	+	35	0
-	+	36	0
-	+	35	0
-	+	34	0
-	+	35	0
-	+	34	0
-	+	33	7
-	+	35	30
-	+	120	0
-	+	35	22
-	+	114	0
-	+	114	22
-	+	114	15
-	+	114	6
-	+	114	23
-	+	114	37
-	+	114	47
-	+	114	14
-	+	114	0
-	+	114	17
-	+	114	0
-	+	114	53
-	+	114	38
-	+	114	0
-	+	110	0
-	+	56	29
-	+	53	21
-	+	54	18
-	+	28	0
-
 > C:\Users\Edgar\.vsvimrc
 	*	1605552864	0
 	"	5	0
@@ -2223,84 +2332,3 @@ $
 	+	16	45
 	+	38	0
 	+	70	25
-
-> C:\Users\Edgar\Repos\T-ClockStripped2\msvc-vs-autoversion.vcxproj
-	*	1605375468	0
-	"	13	32
-
-> C:\Users\Edgar\Repos\T-ClockStripped2\build.bat
-	*	1605375426	0
-	"	8	5
-	^	11	16
-	.	11	15
-	+	11	15
-
-> C:\Users\Edgar\Repos\T-ClockStripped\build.bat
-	*	1605375339	0
-	"	12	17
-	^	4	0
-	.	4	0
-	+	6	41
-	+	11	107
-	+	6	0
-	+	11	107
-	+	6	0
-	+	11	4
-	+	11	93
-	+	11	0
-	+	5	0
-	+	4	0
-
-> C:\Users\Edgar\Repos\T-Clock\src\~ide\msvc-vs-dll.vcxproj
-	*	1605375332	0
-	"	5	41
-
-> C:\Users\Edgar\Repos\T-ClockStripped\msvc-common.props
-	*	1605375322	0
-	"	56	85
-	^	60	26
-	.	7	0
-	+	12	0
-	+	11	0
-	+	28	0
-	+	60	25
-	+	7	0
-
-> C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvarsall.bat
-	*	1605375043	0
-	"	80	59
-
-> C:\Users\Edgar\Repos\T-ClockStripped\ediclock-dll.vcxproj
-	*	1605374825	0
-	"	15	37
-	^	15	25
-	.	15	24
-	+	4	0
-	+	8	0
-	+	16	0
-	+	16	57
-	+	17	12
-	+	19	0
-	+	36	30
-	+	40	24
-	+	41	24
-	+	42	24
-	+	43	24
-	+	44	24
-	+	45	24
-	+	46	24
-	+	47	24
-	+	48	24
-	+	49	24
-	+	52	24
-	+	53	24
-	+	54	24
-	+	55	24
-	+	56	24
-	+	57	24
-	+	58	24
-	+	59	24
-	+	60	24
-	+	61	24
-	+	64	78
-	+	15	24

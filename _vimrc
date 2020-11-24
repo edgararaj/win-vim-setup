@@ -32,8 +32,8 @@ set autowrite autoread
 set undofile
 set backup
 set noswapfile
-set backupdir=~/tmp
-set undodir=~/tmp
+set backupdir=%temp%
+set undodir=%temp%
 set ignorecase smartcase
 set number 
 set smarttab smartindent
@@ -56,7 +56,8 @@ nnoremap <C-I> <C-I>zz
 
 nnoremap <leader><leader> <c-^>
 
-nnoremap <c-k> :25Lex<CR>
+nnoremap <silent> <c-k> :25Lex<CR>
+nnoremap <silent> <c-u> :UndotreeToggle<CR>:UndotreeFocus<CR>
 
 nnoremap <S-j> 7jzz
 nnoremap <S-k> 7kzz
